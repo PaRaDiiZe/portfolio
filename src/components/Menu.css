@@ -1,0 +1,28 @@
+.link, .link2 {
+    position: relative;
+    transition: color 0.5s ease;
+    text-decoration: none; 
+}
+
+.link::after, .link2::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    bottom: -5px; 
+    left: 0;
+    background-color: currentColor; 
+    transition: width 0.5s ease;
+}
+
+.link {
+    color: white; 
+}
+
+.link2 {
+    color: black; 
+}
+
+.link:hover::after, .link2:hover::after {
+    width: 100%; 
+}
