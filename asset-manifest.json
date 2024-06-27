@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/anthony.huot.io/static/css/main.933dfd24.css",
-    "main.js": "/anthony.huot.io/static/js/main.26ac6b09.js",
+    "main.css": "/anthony.huot.io/static/css/main.a78082fb.css",
+    "main.js": "/anthony.huot.io/static/js/main.08b9e0c6.js",
     "static/js/453.1407b060.chunk.js": "/anthony.huot.io/static/js/453.1407b060.chunk.js",
     "static/media/t.mp4": "/anthony.huot.io/static/media/t.ff8ba358ff8bf803fa20.mp4",
+    "static/media/screen1.png": "/anthony.huot.io/static/media/screen1.56ec87b5b414cd8ba656.png",
+    "static/media/home.png": "/anthony.huot.io/static/media/home.9e05beca0f675bd11b6d.png",
     "static/media/oeuvres.png": "/anthony.huot.io/static/media/oeuvres.370c6ff8c071e1a6c61e.png",
-    "static/media/home.png": "/anthony.huot.io/static/media/home.761d0fdad06297693eee.png",
+    "static/media/screen.png": "/anthony.huot.io/static/media/screen.e64dc67b60ae4bd03d9e.png",
+    "static/media/menu.png": "/anthony.huot.io/static/media/menu.7516395566225a478726.png",
     "static/media/parcours.png": "/anthony.huot.io/static/media/parcours.6f9ca7dfea5e82b8617d.png",
+    "static/media/graph.png": "/anthony.huot.io/static/media/graph.c0d5dad27774df7fb8e9.png",
+    "static/media/graph2.png": "/anthony.huot.io/static/media/graph2.1cc54ee3eb85aad9f2ae.png",
     "static/media/CV.pdf": "/anthony.huot.io/static/media/CV.3ca8019e1258cdb4c9e6.pdf",
     "static/media/github.svg": "/anthony.huot.io/static/media/github.9a9c37b7d508d480341bc158f5d2d72a.svg",
     "static/media/linkedin.svg": "/anthony.huot.io/static/media/linkedin.ed8a7b1f6fe128f7384f73db41dabdc3.svg",
     "index.html": "/anthony.huot.io/index.html",
-    "main.933dfd24.css.map": "/anthony.huot.io/static/css/main.933dfd24.css.map",
-    "main.26ac6b09.js.map": "/anthony.huot.io/static/js/main.26ac6b09.js.map",
+    "main.a78082fb.css.map": "/anthony.huot.io/static/css/main.a78082fb.css.map",
+    "main.08b9e0c6.js.map": "/anthony.huot.io/static/js/main.08b9e0c6.js.map",
     "453.1407b060.chunk.js.map": "/anthony.huot.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.933dfd24.css",
-    "static/js/main.26ac6b09.js"
+    "static/css/main.a78082fb.css",
+    "static/js/main.08b9e0c6.js"
   ]
 }
