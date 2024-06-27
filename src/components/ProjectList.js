@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Fade, Slide } from "react-awesome-reveal";
 import "./ProjectList.css";
 import "../index.css";
 
@@ -65,6 +66,7 @@ function ProjectList() {
     switch (currentSelection) {
       case "itinerArt":
         return (
+          <Slide direction="left">
           <div className="flex flex-col flex-wrap items-center glassmorphism h-auto">
             <h2 className="text-center mt-5">Itiner'Art</h2>
             <div
@@ -138,9 +140,11 @@ function ProjectList() {
               </div>
             </div>
           </div>
+          </Slide>
         );
       case "leau":
         return (
+          <Slide direction="left">
           <div className="flex flex-col flex-wrap items-center glassmorphism h-auto overflow-auto">
             <h2 className="text-center mt-5">L'eau</h2>
             <div
@@ -206,9 +210,11 @@ function ProjectList() {
               </div>
             </div>
           </div>
+          </Slide>
         );
       case "dieu":
         return (
+          <Slide direction="left">
           <div className="flex flex-col flex-wrap items-center glassmorphism h-auto overflow-auto">
             <h2 className="text-center mt-5">Dieu, y-es tu ?</h2>
             <div
@@ -283,9 +289,11 @@ function ProjectList() {
               </div>
             </div>
           </div>
+          </Slide>
         );
       case "piverts":
         return (
+          <Slide direction="left">
           <div className="flex flex-col flex-wrap items-center glassmorphism h-auto overflow-auto">
             <h2 className="text-center mt-5">Les piverts</h2>
             <div
@@ -335,9 +343,11 @@ function ProjectList() {
               </div>
             </div>
           </div>
+          </Slide>
         );
       case "teknophile":
         return (
+          <Slide direction="left">
           <div className="flex flex-col flex-wrap items-center glassmorphism h-auto overflow-auto">
             <h2 className="text-center mt-5">Itiner'Art</h2>
             <div
@@ -402,12 +412,15 @@ function ProjectList() {
               </div>
             </div>
           </div>
+          </Slide>
         );
       default:
         return (
+          <Slide direction="down" delay={1e2} triggerOnce>
           <p className="text-center">
             Cliquez sur un projet pour plus d'informations
           </p>
+          </Slide>
         );
     }
   };
@@ -417,6 +430,7 @@ function ProjectList() {
       <div className="flex flex-col gap-8 mt-12 mr-80 w-1/5" id="test">
         <h2 className="text-[2.5rem]">Projets</h2>
         <span className="underline-effect"></span>
+        <Fade direction="up" delay={1e2} triggerOnce>
         <div
           className="clickable flex justify-between items-center text-4xl px-8 h-12 glassmorphism-pro cursor-pointer w-full"
           onClick={() => toggleInfoVisibility("itinerArt")}
@@ -424,7 +438,8 @@ function ProjectList() {
           <h3 className="text-[1.3rem]">Itiner'Art</h3>
           <i className="fas fa-spray-can ml-2"></i>
         </div>
-
+        </Fade>
+        <Fade direction="up" delay={1e2} triggerOnce>
         <div
           className="clickable flex justify-between items-center text-4xl px-8 h-12 glassmorphism-pro cursor-pointer w-full"
           onClick={() => toggleInfoVisibility("leau")}
@@ -432,6 +447,8 @@ function ProjectList() {
           <h3 className="text-[1.5rem]">L'eau</h3>
           <i className="fas fa-glass-water-droplet ml-2"></i>
         </div>
+        </Fade>
+        <Fade direction="up" delay={1e2} triggerOnce>
         <div
           className="clickable flex justify-between items-center text-4xl px-8 h-12 glassmorphism-pro cursor-pointer w-full"
           onClick={() => toggleInfoVisibility("dieu")}
@@ -439,6 +456,8 @@ function ProjectList() {
           <h3 className="text-[1.5rem]">Dieu, y-es tu ?</h3>
           <i className="fa-solid fa-person-praying"></i>
         </div>
+        </Fade>
+        <Fade direction="up" delay={1e2} triggerOnce>
         <div
           className="clickable flex justify-between items-center text-4xl px-8 h-12 glassmorphism-pro cursor-pointer w-full"
           onClick={() => toggleInfoVisibility("piverts")}
@@ -446,6 +465,8 @@ function ProjectList() {
           <h3 className="text-[1.5rem]">Les piverts</h3>
           <i className="fa-solid fa-dove"></i>
         </div>
+        </Fade>
+        <Fade direction="up" delay={1e2} triggerOnce>
         <div
           className="clickable flex justify-between items-center text-4xl px-8 h-12 glassmorphism-pro cursor-pointer w-full"
           onClick={() => toggleInfoVisibility("teknophile")}
@@ -453,6 +474,7 @@ function ProjectList() {
           <h3 className="text-[1.5rem]">Teknophile</h3>
           <i className="fa-solid fa-cart-shopping"></i>
         </div>
+        </Fade>
       </div>
       <div
         className={`info-box box-on-right ${
