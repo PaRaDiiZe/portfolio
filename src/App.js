@@ -169,7 +169,7 @@ function App() {
                 <span className="underline-effect"></span>
               </div>
             </div>
-            <div className="flex flex-row gap-8">
+            <div className="flex flex-row justify-evenly">
               <div className="flex flex-col">
                 <h2 className="text-[2.5rem]">E-mail</h2>
                 <p className="mt-3">Email: huot.anthony03@gmail.com</p>

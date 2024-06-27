@@ -57,13 +57,13 @@ const Menu = () => {
                         {/* Partie gauche avec les liens d'ancrage */}
                         <div className="w-1/2 flex flex-col justify-center items-center pl-10 space-y-4 bg-black text-5xl uppercase gap-20">
                             <a href="#home" className="link" onClick={handleLinkClick}>
-                                Home
+                                Accueil
                             </a>
                             <a href="#projects" className="link" onClick={handleLinkClick}>
-                                Projects
+                                Projets
                             </a>
                             <a href="#about" className="link" onClick={handleLinkClick}>
-                                About
+                                A propos
                             </a>
                             <a href="#contact" className="link" onClick={handleLinkClick}>
                                 Contact
