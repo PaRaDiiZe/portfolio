@@ -67,8 +67,8 @@ function ProjectList() {
       case "itinerArt":
         return (
           <Slide direction="left">
-          <div className="flex flex-col flex-wrap items-center glassmorphism h-auto">
-            <h2 className="text-center mt-5">Itiner'Art</h2>
+          <div className="flex flex-col flex-wrap items-center glassmorphism-pro h-auto">
+            <h2 className="text-center mt-5 text-2xl">Itiner'Art</h2>
             <div
               id="container_info"
               className="w-[80%] flex flex-col items-center mt-5"
@@ -145,8 +145,8 @@ function ProjectList() {
       case "leau":
         return (
           <Slide direction="left">
-          <div className="flex flex-col flex-wrap items-center glassmorphism h-auto overflow-auto">
-            <h2 className="text-center mt-5">L'eau</h2>
+          <div className="flex flex-col flex-wrap items-center glassmorphism-pro h-auto overflow-auto">
+            <h2 className="text-center mt-5 text-2xl">L'eau</h2>
             <div
               id="container_info"
               className="w-[80%] flex flex-col items-center mt-5"
@@ -215,8 +215,8 @@ function ProjectList() {
       case "dieu":
         return (
           <Slide direction="left">
-          <div className="flex flex-col flex-wrap items-center glassmorphism h-auto overflow-auto">
-            <h2 className="text-center mt-5">Dieu, y-es tu ?</h2>
+          <div className="flex flex-col flex-wrap items-center glassmorphism-pro h-auto overflow-auto">
+            <h2 className="text-center mt-5 text-2xl">Dieu, y-es tu ?</h2>
             <div
               id="container_info"
               className="w-[80%] flex flex-col items-center mt-5"
@@ -294,8 +294,8 @@ function ProjectList() {
       case "piverts":
         return (
           <Slide direction="left">
-          <div className="flex flex-col flex-wrap items-center glassmorphism h-auto overflow-auto">
-            <h2 className="text-center mt-5">Les piverts</h2>
+          <div className="flex flex-col flex-wrap items-center glassmorphism-pro h-auto overflow-auto">
+            <h2 className="text-center mt-5 text-2xl">Les piverts</h2>
             <div
               id="container_info"
               className="w-[80%] flex flex-col items-center mt-5"
@@ -348,8 +348,8 @@ function ProjectList() {
       case "teknophile":
         return (
           <Slide direction="left">
-          <div className="flex flex-col flex-wrap items-center glassmorphism h-auto overflow-auto">
-            <h2 className="text-center mt-5">Itiner'Art</h2>
+          <div className="flex flex-col flex-wrap items-center glassmorphism-pro h-auto overflow-auto">
+            <h2 className="text-center mt-5 text-2xl">Itiner'Art</h2>
             <div
               id="container_info"
               className="w-[80%] flex flex-col items-center mt-5"
