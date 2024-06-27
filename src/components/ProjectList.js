@@ -42,18 +42,18 @@ function ProjectList() {
     const testDiv = document.getElementById("test");
     const clickableChildren = testDiv.querySelectorAll(".clickable");
 
-    // Event handler for clicks on child elements
+    
     const handleClickOnChild = () => {
-      // Instead of adding a class to 'testDiv', we toggle the visibility of the box
+    
       setBoxVisible(true);
     };
 
-    // Attach the event listener to each child element
+  
     clickableChildren.forEach((child) => {
       child.addEventListener("click", handleClickOnChild);
     });
 
-    // Cleanup function to remove the event listeners
+    
     return () => {
       clickableChildren.forEach((child) => {
         child.removeEventListener("click", handleClickOnChild);
@@ -430,28 +430,28 @@ function ProjectList() {
           onClick={() => toggleInfoVisibility("leau")}
         >
           <h3 className="text-[1.5rem]">L'eau</h3>
-          <i class="fas fa-glass-water-droplet ml-2"></i>
+          <i className="fas fa-glass-water-droplet ml-2"></i>
         </div>
         <div
           className="clickable flex justify-between items-center text-4xl px-8 h-12 glassmorphism-pro cursor-pointer w-full"
           onClick={() => toggleInfoVisibility("dieu")}
         >
           <h3 className="text-[1.5rem]">Dieu, y-es tu ?</h3>
-          <i class="fa-solid fa-person-praying"></i>
+          <i className="fa-solid fa-person-praying"></i>
         </div>
         <div
           className="clickable flex justify-between items-center text-4xl px-8 h-12 glassmorphism-pro cursor-pointer w-full"
           onClick={() => toggleInfoVisibility("piverts")}
         >
           <h3 className="text-[1.5rem]">Les piverts</h3>
-          <i class="fa-solid fa-dove"></i>
+          <i className="fa-solid fa-dove"></i>
         </div>
         <div
           className="clickable flex justify-between items-center text-4xl px-8 h-12 glassmorphism-pro cursor-pointer w-full"
           onClick={() => toggleInfoVisibility("teknophile")}
         >
           <h3 className="text-[1.5rem]">Teknophile</h3>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <i className="fa-solid fa-cart-shopping"></i>
         </div>
       </div>
       <div

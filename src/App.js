@@ -15,7 +15,7 @@ import cv from "./assets/CV.pdf";
 function App() {
   useEffect(() => {
     const mainContent = document.querySelector(".main-content");
-    const sections = mainContent.querySelectorAll("section"); // Assuming each section has a class 'section'
+    const sections = mainContent.querySelectorAll("section"); 
     const sectionPositions = Array.from(sections).map(
       (section) => section.offsetLeft
     );
@@ -25,7 +25,7 @@ function App() {
       const currentScroll = mainContent.scrollLeft;
       const direction = event.deltaY > 0 ? 1 : -1;
 
-      // Find the nearest section to snap to based on the current scroll position and direction
+      
       let targetSectionIndex = sectionPositions.findIndex((pos, index) => {
         if (direction > 0) {
           return pos > currentScroll;
@@ -38,10 +38,9 @@ function App() {
       });
 
       if (direction < 0 && targetSectionIndex > 0) {
-        targetSectionIndex -= 1; // Move to the previous section if scrolling up
+        targetSectionIndex -= 1; 
       }
 
-      // Ensure the index is within bounds
       targetSectionIndex = Math.max(
         0,
         Math.min(sectionPositions.length - 1, targetSectionIndex)
@@ -51,7 +50,7 @@ function App() {
         const targetSection = sections[targetSectionIndex];
         mainContent.scrollTo({
           left: targetSection.offsetLeft,
-          behavior: "smooth", // This enables smooth scrolling
+          behavior: "smooth", 
         });
       }
     };
@@ -67,26 +66,25 @@ function App() {
     let reverseInterval;
 
     const playInReverse = () => {
-      // Clear any existing intervals to avoid multiple reverse playbacks
       clearInterval(reverseInterval);
 
-      // Set an interval to simulate reverse playback
+      
       reverseInterval = setInterval(() => {
         if (video1.currentTime === 0) {
-          clearInterval(reverseInterval); // Stop the reverse playback when reaching the start
-          video1.play(); // Optionally, play the video normally from the start
+          clearInterval(reverseInterval); 
+          video1.play(); 
         } else {
-          video1.currentTime -= 0.033; // Adjust playback speed by changing the decrement value
+          video1.currentTime -= 0.033; 
         }
-      }, 33); // Approximately 30 frames per second
+      }, 33); 
     };
 
     video1.onended = () => {
-      video1.pause(); // Pause the video at the end before starting reverse playback
+      video1.pause(); 
       playInReverse();
     };
 
-    // Cleanup function to clear the interval when the component unmounts
+    
     return () => {
       clearInterval(reverseInterval);
     };
