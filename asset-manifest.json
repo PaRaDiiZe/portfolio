@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anthony.huot.io/static/css/main.a2152a78.css",
-    "main.js": "/anthony.huot.io/static/js/main.df631c1c.js",
+    "main.css": "/anthony.huot.io/static/css/main.ff88e51d.css",
+    "main.js": "/anthony.huot.io/static/js/main.353af6e9.js",
     "static/js/453.1407b060.chunk.js": "/anthony.huot.io/static/js/453.1407b060.chunk.js",
     "static/media/t.mp4": "/anthony.huot.io/static/media/t.ff8ba358ff8bf803fa20.mp4",
     "static/media/screen1.png": "/anthony.huot.io/static/media/screen1.56ec87b5b414cd8ba656.png",
@@ -16,12 +16,12 @@
     "static/media/github.svg": "/anthony.huot.io/static/media/github.9a9c37b7d508d480341bc158f5d2d72a.svg",
     "static/media/linkedin.svg": "/anthony.huot.io/static/media/linkedin.ed8a7b1f6fe128f7384f73db41dabdc3.svg",
     "index.html": "/anthony.huot.io/index.html",
-    "main.a2152a78.css.map": "/anthony.huot.io/static/css/main.a2152a78.css.map",
-    "main.df631c1c.js.map": "/anthony.huot.io/static/js/main.df631c1c.js.map",
+    "main.ff88e51d.css.map": "/anthony.huot.io/static/css/main.ff88e51d.css.map",
+    "main.353af6e9.js.map": "/anthony.huot.io/static/js/main.353af6e9.js.map",
     "453.1407b060.chunk.js.map": "/anthony.huot.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2152a78.css",
-    "static/js/main.df631c1c.js"
+    "static/css/main.ff88e51d.css",
+    "static/js/main.353af6e9.js"
   ]
 }
