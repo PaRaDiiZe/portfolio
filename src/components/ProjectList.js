@@ -202,7 +202,6 @@ function ProjectList() {
                 <img src="" alt=""></img>
               </div>
               <div>
-                https://lespiverts.org/
                 <a href="https://eau.huot.etu.mmi-unistra.fr/" className="mx-2">
                   <p className="mt-4">Lien vers le site : L'eau</p>
                   <span className="underline-effect"></span>
@@ -283,7 +282,7 @@ function ProjectList() {
                   href="https://www.cuej.info/mini-sites/religion/index.php"
                   className="mx-2"
                 >
-                  <p className="mt-4">Lien vers le site : Les piverts</p>
+                  <p className="mt-4">Lien vers le site : Dieu, y-es tu ?</p>
                   <span className="underline-effect"></span>
                 </a>
               </div>
